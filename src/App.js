@@ -50,11 +50,25 @@ function App() {
           Начинающий Frontend-<br />разработчик
         </h1>
         <img src={Photo} alt="Profile" className='profile'/>
-        <button className='buttResume'>
-          Скачать Резюме
+        <button className='buttResume' onClick={() => window.open('https://github.com/LyubimtsevaK')}>
+          <span>Скачать Резюме</span>
         </button>
       </div> 
-     
+        
+      <div>
+        <h2 className='h2'>
+          Ключевые навыки:
+        </h2>
+      </div>
+      <div className="container">
+        <button className='skill'>JavaScript</button>
+        <button className='skill'>HTML</button>
+        <button className='skill'>CSS</button>
+        <button className='skill'>React</button>
+        <button className='skill'>TypeScript</button>
+        <button className='skill'>Node.js</button>
+        <button className='skill'>Git</button>
+      </div>
       </>
   );
 }
