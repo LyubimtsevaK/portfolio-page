@@ -30,12 +30,12 @@
 .topnav {
     background-color: transparent;
     overflow: hidden;
-    margin: 20px;
-    margin-left: 63%;
+    /* margin: 20px; */
+    margin-top: -10px;
+    margin-left: 60%;
     margin-right: 10%;
     font-family: Poppins, sans-serif;
     color: black;
-    margin-top: -10px;
     scroll-behavior: smooth;
 }
 
@@ -43,7 +43,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    position: fixed;
+    /* position: fixed; */
 }
 
 
@@ -57,7 +57,7 @@ a.aboutMe {
     overflow: visible;
     text-decoration: none;
     width: 75px;
-    margin: -50px 20px;
+    margin: -5px 20px;
     text-align: center;
     border: none;
     background: none;
@@ -93,7 +93,7 @@ a.portfolio {
     overflow: visible;
     text-decoration: none;
     width: 100px;
-    margin: -50px 20px;
+    margin: -5px 20px;
     text-align: center;
     border: none;
     background: none;
@@ -128,7 +128,7 @@ a.contacts {
     overflow: visible;
     text-decoration: none;
     width: 90px;
-    margin: -50px 20px;
+    margin: -5px 20px;
     text-align: center;
     border: none;
     background: none;
@@ -169,7 +169,7 @@ a.contacts:hover:after{
         flex-direction: row;
         justify-content: flex-start;
         margin-top: 1%;
-        margin-left: 4%;
+        margin-left: -8%;
     }
 
     a.aboutMe {
@@ -182,7 +182,7 @@ a.contacts:hover:after{
         overflow: visible;
         text-decoration: none;
         width: 15%;
-        margin: -5% 15%;
+        margin: -5% 7%;
         text-align: center;
         border: none;
         background: none;
@@ -200,7 +200,7 @@ a.contacts:hover:after{
         overflow: visible;
         text-decoration: none;
         width: 30%;
-        margin: -5% 14%;
+        margin: -5% 10%;
         text-align: center;
         border: none;
         background: none;
@@ -217,7 +217,7 @@ a.contacts:hover:after{
         overflow: visible;
         text-decoration: none;
         width: 30%;
-        margin: -5% 10%;
+        margin: -5% 4%;
         text-align: center;
         border: none;
         background: none;
@@ -573,7 +573,7 @@ h3.h3 {
   }
   
   .card__description {
-    padding: 0 20% 20%;
+    padding: 0 3% 3%;
     margin: 0;
     color: #D7BDCA;
     font-family:'Mont';   
@@ -704,7 +704,7 @@ h3.h3 {
       }
       
       .card__description {
-        padding: 0 20% 20%;
+        padding: 0 3% 3%;
         margin: 0;
         color: #D7BDCA;
         font-family:'Mont';   

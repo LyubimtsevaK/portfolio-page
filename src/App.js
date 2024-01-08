@@ -23,7 +23,7 @@ function App() {
             Начинающий <br />Frontend-разработчик
           </h1>
           <img src={Photo} alt="Profile" className='profile' />
-          <button className='buttResume' onClick={() => window.open('https://github.com/LyubimtsevaK')}>
+          <button className='buttResume' onClick={() => window.open('https://drive.google.com/file/d/18BwE-tSOK9DtH2_vMAghC8XHNFBxaLX7/view?usp=sharing')}>
             <span>Скачать Резюме</span>
           </button>
         </div> 
@@ -33,7 +33,7 @@ function App() {
             Обо мне:
           </h2>
           <p className='line'>
-            В последний год я занималась обучением в области frontend-разработки. Получала информацию из различных курсов, статей и видео...
+          Я - Кристина, начинающий frontend-разработчик. В последний год я занималась обучением в области frontend-разработки. Получала информацию из различных курсов, статей и видео, а также закрепляла теорию постоянной практикой в решении задач. Помимо теоретического изучения активно работала над созданием своего портфолио, которое вы можете увидеть по ссылке ниже. В нём собраны различные проекты, которые в том числе включают в себя работу с API, асинхронностью и адаптивностью. Также была использована Figma для поиска дизайнов pet-проектов. Я готова применить все свои знания, опыт и творческий подход, чтобы внести свой вклад в создание качественных проектов.
           </p>
         </div>
 
@@ -70,8 +70,11 @@ function App() {
                     </h5>
                   </div>
                 </div>
-                <a href="https://github.com/LyubimtsevaK/calculator" className="card__description">
+                <a href="https://github.com/LyubimtsevaK/calculator" className="card__description" target="_blank" rel="noreferrer">
                 Проект на GitHub
+                </a>
+                <a href="https://lyubimtsevak.github.io/calculator/" className="card__description" target="_blank" rel="noreferrer">
+                GitPage
                 </a>
               </div>
             </button>
@@ -89,8 +92,11 @@ function App() {
                     </h6>
                   </div>
                 </div>
-                <a href="https://github.com/LyubimtsevaK/weather" className="card__description">
+                <a href="https://github.com/LyubimtsevaK/weather" className="card__description" target="_blank" rel="noreferrer">
                 Проект на GitHub
+                </a>
+                <a href="https://lyubimtsevak.github.io/weather/" className="card__description" target="_blank" rel="noreferrer">
+                GitPage
                 </a>
               </div>
             </button>
@@ -104,21 +110,21 @@ function App() {
           <div className='contacts'>
           <div className='contg'>
               <img src='https://newsofrussia.ru/wp-content/uploads/2022/11/kak-nastroit-proxy-telegram-1.png' alt='' className='tg'/>
-              <a href="https://t.me/lyubimtseva_k" className='textTg'>
+              <a href="https://t.me/lyubimtseva_k" className='textTg' target="_blank" rel="noreferrer">
                 @lyubimtseva<span className='k'>_</span>k
               </a>
             </div>
 
             <div className='contg'>
               <img src='https://odvme.com/uploads/posts/2022-12/github.webp' alt='' className='tg'/>
-              <a href="https://github.com/LyubimtsevaK" className='textTg'>
+              <a href="https://github.com/LyubimtsevaK" className='textTg' target="_blank" rel="noreferrer">
               GitHub
               </a>
             </div>
 
             <div className='contg'>
               <img src='https://opis-cdn.tinkoffjournal.ru/mercury/my-vam-pozvonim-7.xgcvz17rfd42..png' alt='' className='tg'/>
-              <a href="https://career.habr.com/lyubimtsevak" className='textTg'>
+              <a href="https://career.habr.com/lyubimtsevak" className='textTg' target="_blank" rel="noreferrer">
               ХабрКарьера
               </a>
             </div>
